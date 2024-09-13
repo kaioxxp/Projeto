@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Recursos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Indústrias Wayne - Gerenciar Recursos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="usuarios.html">Gerenciar Usuários</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="recursos">
+            <h2>Gerenciar Recursos</h2>
+            <form id="formRecurso">
+                <input type="hidden" id="recursoId">
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao" required>
+                <label for="tipoRecurso">Tipo:</label>
+                <select id="tipoRecurso">
+                    <option value="equipamento">Equipamento</option>
+                    <option value="veiculo">Veículo</option>
+                    <option value="dispositivo">Dispositivo de Segurança</option>
+                </select>
+                <button type="submit">Adicionar Recurso</button>
+            </form>
+            <div id="listaRecursos"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

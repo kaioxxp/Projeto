@@ -1,0 +1,11 @@
+{
+    "usuarios": [
+        { "id": 1, "nome": "João", "senha": "1234", "tipo": "funcionario" },
+        { "id": 2, "nome": "Maria", "senha": "5678", "tipo": "gerente" },
+        { "id": 3, "nome": "Ana", "senha": "abcd", "tipo": "administrador" }
+    ],
+    "recursos": [
+        { "id": 1, "descricao": "Computador", "tipo": "equipamento" },
+        { "id": 2, "descricao": "Caminhão", "tipo": "veiculo" }
+    ]
+}
